@@ -1,0 +1,64 @@
+.switch {
+  width: 243px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px;
+  position: absolute;
+  left: 372px;
+  top: 38px;
+  background: #F3F4F6;
+  border-radius: 6px;
+  
+}
+.runtime {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  width: 107px;
+  height: 36px;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(226, 227, 229);
+  border-radius: 5px;
+  color: rgb(77, 85, 98);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  cursor: pointer;
+}
+.construktor {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  width: 132px;
+  height: 36px;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(226, 227, 229);
+  border-radius: 5px;
+  color: rgb(77, 85, 98);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  cursor: pointer;
+}
+.run {
+  padding-top: 3px;
+}
+.constr {
+  padding-top: 3px;
+}
+.runtime-no {
+  background: rgb(243, 244, 246);
+  border: none;
+  cursor: auto;
+}
+.construktor-no {
+  background: rgb(243, 244, 246);
+  border: none;
+  cursor: auto;
+}
