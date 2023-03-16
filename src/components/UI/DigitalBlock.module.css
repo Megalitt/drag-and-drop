@@ -1,0 +1,36 @@
+.digital {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 30%;
+  justify-content:space-between;
+  align-items:last baseline;
+  box-sizing: border-box;
+ 
+
+}
+.button {
+  background: #FFFFFF;
+  border: 1px solid #E2E3E5;
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  box-sizing: border-box;
+  width: 72px;
+  height: 48px;
+}
+.button:nth-child(n+4) {
+  margin-top: 8px;
+}
+.button:nth-child(10){
+  width: 152px;
+}
+.button:hover {
+  border: 2px solid #5D5FEF;
+}
+.button:active {
+  background: #5D5FEF;
+  color: #fff;
+}

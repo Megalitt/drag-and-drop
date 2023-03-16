@@ -1,0 +1,27 @@
+.core {
+  margin: 0;
+  padding: 0;
+  width: 232px;
+  height: 52px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  /* font-size: 36px; */
+  font-size: 25px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  color: #111827;
+  background: #F3F4F6;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.leng {
+  font-size: 18px;
+  box-sizing: border-box;
+  line-height: 18px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
